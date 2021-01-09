@@ -13,7 +13,7 @@ int main(){
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
-	for (int i=0;i<8;i++){
+	for (int i=0;i<n;i++){
 		meh=meh+arr[i];
 		if(meh<arr[i]){
 			str=i;
